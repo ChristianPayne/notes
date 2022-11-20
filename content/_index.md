@@ -4,9 +4,8 @@ enableToc: false
 ---
 
 # Welcome!
-
 Working on some notes. Hang tight while I work on this.
 
-# Let's take a look around
-
-[Code Reference](notes/Code%20Reference.md) 
+## Jump around
+[Code References](notes/Code%20References.md) 
+[Markdown Cheatsheet](notes/Markdown%20Cheatsheet.md) 

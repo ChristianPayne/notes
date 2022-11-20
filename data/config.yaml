@@ -17,7 +17,9 @@ operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description: My personal notes for anyone to see.
 page_title: "Christian Payne"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/chrisgriffin522
   - link_name: Github
     link: https://github.com/ChristianPayne
+  - link_name: Newsletter
+    link: https://christianpayne.substack.com/
+  - link_name: Twitter
+    link: https://twitter.com/chrisgriffin522

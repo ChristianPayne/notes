@@ -1,6 +1,22 @@
 This script was created to solve the problem of AWS Glue jobs failing because our files in S3 were stored as ANSI format. Glue apparently only allows UTF-8 encoding on the files it processes.
 
-# Mac
+The difference between the Mac and Windows scripts are the file path method and the encoding naming. They will do the same task, just configured for each OS.
+
+## Prerequisites
+To run this on your machine, you will need to have python 3.x installed. No other requirements are necessary.
+
+## Usage
+The easiest way to run this is to put the python script next to the folder that you want to run it on. 
+1. Save the script as `ANSI_to_UTF8.py`
+2. Navigate to that directory and run:
+
+```
+python ANSI_to_UTF8.py <folder name>
+```
+
+The script will copy all the files into a new directory with UTF_8 encoding.
+
+## Mac
 ```python
 import sys
 import os
@@ -54,7 +70,7 @@ for file in list_of_files:
 print(f"Finished converting {len(list_of_files)} files to {target_folder}")
 ```
 
-# Windows
+## Windows
 ```python
 import sys
 import os
