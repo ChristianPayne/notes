@@ -1,4 +1,6 @@
-
+---
+title: Dataview Queries
+---
 Link to any page that mentions a page
 type: dataview
 ```

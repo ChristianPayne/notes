@@ -1,3 +1,3 @@
 ---
-title: "{{title}} | Christian Payne"
+title: "{{title}}"
 ---

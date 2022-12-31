@@ -1,3 +1,6 @@
+---
+title: Convert ANSI to UTF-8
+---
 This script was created to solve the problem of AWS Glue jobs failing because our files in S3 were stored as ANSI format. Glue apparently only allows UTF-8 encoding on the files it processes.
 
 The difference between the Mac and Windows scripts are the file path method and the encoding naming. They will do the same task, just configured for each OS.

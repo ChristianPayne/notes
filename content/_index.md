@@ -1,5 +1,5 @@
 ---
-title: Welcome | Christian Payne
+title: Christian Payne
 enableToc: false
 ---
 
